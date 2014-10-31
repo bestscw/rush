@@ -1,0 +1,21 @@
+{
+"resources":
+	[
+		{"name":"bgImage","type":"image","url":"assets/bg.jpg"},
+		{"name":"egretIcon","type":"image","url":"assets/egret_icon.png"},
+        {"name":"description","type":"json","url":"config/description.json"},
+	{"name":"btnStart","type":"image","url":"assets/btn_start.png"},
+	{"name":"click","type":"sound","url":"assets/click.mp3"},
+		{"name":"btnReply","type":"image","url":"assets/reply.png"},
+		{"name":"shareTips","type":"image","url":"assets/shareTips.png"}
+
+
+
+	
+	],
+
+"groups":
+	[
+        {"name":"preload","keys":"bgImage,egretIcon,btnStart,click,btnReply,shareTips"}
+	]
+}
